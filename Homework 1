@@ -1,0 +1,4 @@
+myMarbles = 17
+jennyMarbles = 7*3
+totalMarbles = (myMarbles - 15 + 12) + jennyMarbles
+print("We have "+str(totalMarbles)+" marbles")
