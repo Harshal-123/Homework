@@ -1,0 +1,7 @@
+def printBook(Title, Author, Copies, Price):
+
+  print("Title: " + Title)
+  print("Author: " + Author)
+  print("Number of Copies: " + str(Copies))
+  print("Price per Copy: $" + str(Price))
+  print("Revenue: $" + str(Copies*Price))
