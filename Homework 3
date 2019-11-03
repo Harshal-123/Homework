@@ -1,0 +1,14 @@
+class Vehicle:
+ def __init__(type, form, wheelamt, color):
+   type.form = form
+   type.wheelamt = wheelamt
+   type.color = color
+
+Bicycle = Vehicle("land", "two", "red")
+Car = Vehicle("land", "four", "black")
+Train = Vehicle("land", "eight", "orange")
+Plane = Vehicle("air", "six", "white")
+
+print(Bicycle.wheelamt)
+print(Car.color)
+print(Plane.form)
